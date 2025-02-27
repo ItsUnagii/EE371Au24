@@ -1,0 +1,94 @@
+module task2 (reset, clk, A, start, found, done, loc);
+
+    // Control signals
+    input logic reset, clk, start;
+    // Data in
+    input logic [7:0] A;
+    
+    // Status signals
+    output logic found, done;
+    // Data out
+    output logic [4:0] loc;
+
+    // Temp variables
+    // Upper bounds and lower bounds of the calculation. Needs to be 6 bits so that it can include 32.
+    logic [5:0] upper_bound, lower_bound;
+    // The address to check: the middle address between the upper bound and lower bound. 5 bits to match the RAM module
+    logic [4:0] to_check;
+    // Data_out - The data out of the RAM module after feeding it in an address
+    // ub_next - The upper bounds based on calculations that gets assigned on State 2
+    // lb_next - The lower bounds based on calculations that gets assigned on State 2
+    logic [7:0] data_out, ub_next, lb_next;
+
+    // control circuit
+    logic [2:0] ps, ns;
+	parameter S1 = 3'b000, S2 = 3'b001, S3 = 3'b010, S4 = 3'b011, S5 = 3'b100;
+
+    // State logic: Follows our state diagram listed in our lab report
+    always_comb begin
+        case (ps) 
+            S1: if (start == 0) ns = S1;
+                else ns = S2;
+            S2: ns = S3;
+            S3: if (data_out == A) ns = S5;
+                else ns = S4;
+            S4: ns = S2;
+            S5: if (start == 0) ns = S1;
+                else ns = S5;
+        endcase
+    end
+
+    // D flip flop controling the states
+    always_ff @(posedge clk) begin
+        if (reset)
+            ps <= S1;    
+        else
+            ps <= ns;
+    end
+
+    // Comb logic: Assigns control and status signals, and prepares the next upper and lower bounds
+    // to be assigned in the event that the variable was not yet located
+    always_comb begin
+        case (ps)
+            S1: begin
+               done = 0;
+               loc = 0;
+               ub_next = 32;
+               lb_next = 0;
+            end
+            S4: begin
+                if (data_out > A) begin 
+                    ub_next = to_check + 1;
+                    lb_next = lb_next;
+                end
+                else begin
+                    ub_next = ub_next;
+                    lb_next = to_check + 1;
+                end
+            end
+            S5: begin
+                loc = to_check;
+                done = 1;
+            end
+        endcase
+    end
+
+    // DFF logic to make the upper and lower bounds be assigned on the correct clock cycle
+    always_ff @(posedge clk) begin
+        if (reset) begin
+            upper_bound <= 32;
+            lower_bound <= 0;
+        end
+        else begin
+            upper_bound <= ub_next;
+            lower_bound <= lb_next;
+        end
+    end
+
+    // Datapath circuit
+    ram32x8 ramModule (.address(to_check), .clock(clk), .data(1'b1), .wren(1'b0), .q(data_out));
+    // Our calculation to determine whether to check the upper half or lower half of remaining search area
+    assign to_check = ((upper_bound - lower_bound)/2) + lower_bound - 1;
+    assign found = (data_out == A);
+
+endmodule

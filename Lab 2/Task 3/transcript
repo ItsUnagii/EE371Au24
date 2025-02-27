@@ -1,0 +1,1177 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlabfifo.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:20:49 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO.sv 
+# -- Compiling module FIFO
+# -- Compiling module FIFO_tb
+# 
+# Top level modules:
+# 	FIFO_tb
+# End time: 12:20:49 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:20:49 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO_ctrl.sv 
+# -- Compiling module fifo_ctrl
+# -- Compiling module fifo_ctrl_tb
+# 
+# Top level modules:
+# 	fifo_ctrl_tb
+# End time: 12:20:49 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:20:50 on Oct 19,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# End time: 12:20:50 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:20:50 on Oct 19,2024
+# vlog -reportprogress 300 ./dpram.sv 
+# -- Compiling module dpram
+# -- Compiling module dpram_tb
+# 
+# Top level modules:
+# 	dpram_tb
+# End time: 12:20:50 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:20:50 on Oct 19,2024
+# vlog -reportprogress 300 ./Lab2Task3.sv 
+# -- Compiling module Lab2Task3
+# -- Compiling module Lab2Task3_tb
+# 
+# Top level modules:
+# 	Lab2Task3_tb
+# End time: 12:20:50 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:20:50 on Oct 19,2024
+# vlog -reportprogress 300 ./buttonCheck.sv 
+# -- Compiling module buttonCheck
+# -- Compiling module buttonCheck_tb
+# 
+# Top level modules:
+# 	buttonCheck_tb
+# End time: 12:20:50 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work work.FIFO_tb -Lf altera_mf_ver 
+# Start time: 12:20:50 on Oct 19,2024
+# Loading sv_std.std
+# Loading work.FIFO_tb
+# Loading work.FIFO
+# Loading work.dpram
+# Loading work.fifo_ctrl
+# ** Error: (vish-4014) No objects found matching '/FIFO_testbench/clk'.
+# Executing ONERROR command at macro ./fifowave.do line 3
+# ** Error: (vish-4014) No objects found matching '/FIFO_testbench/reset'.
+# Executing ONERROR command at macro ./fifowave.do line 4
+# ** Error: (vish-4014) No objects found matching '/FIFO_testbench/read'.
+# Executing ONERROR command at macro ./fifowave.do line 5
+# ** Error: (vish-4014) No objects found matching '/FIFO_testbench/write'.
+# Executing ONERROR command at macro ./fifowave.do line 6
+# ** Error: (vish-4014) No objects found matching '/FIFO_testbench/inputBus'.
+# Executing ONERROR command at macro ./fifowave.do line 7
+# ** Error: (vish-4014) No objects found matching '/FIFO_testbench/empty'.
+# Executing ONERROR command at macro ./fifowave.do line 8
+# ** Error: (vish-4014) No objects found matching '/FIFO_testbench/full'.
+# Executing ONERROR command at macro ./fifowave.do line 9
+# ** Error: (vish-4014) No objects found matching '/FIFO_testbench/outputBus'.
+# Executing ONERROR command at macro ./fifowave.do line 10
+# ** Error: (vish-4014) No objects found matching '/FIFO_testbench/dut/register/array_reg'.
+# Executing ONERROR command at macro ./fifowave.do line 11
+# ** Error: (vish-4014) No objects found matching '/FIFO_testbench/dut/FC/rd_ptr'.
+# Executing ONERROR command at macro ./fifowave.do line 12
+# ** Error: (vish-4014) No objects found matching '/FIFO_testbench/dut/FC/rd_ptr_next'.
+# Executing ONERROR command at macro ./fifowave.do line 13
+# ** Error: (vish-4014) No objects found matching '/FIFO_testbench/dut/FC/wr_ptr'.
+# Executing ONERROR command at macro ./fifowave.do line 14
+# ** Error: (vish-4014) No objects found matching '/FIFO_testbench/dut/FC/wr_ptr_next'.
+# Executing ONERROR command at macro ./fifowave.do line 15
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./FIFO.sv(117)
+#    Time: 9450 ps  Iteration: 1  Instance: /FIFO_tb
+# Break in Module FIFO_tb at ./FIFO.sv line 117
+add wave -position end  sim:/FIFO_tb/clk
+add wave -position end  sim:/FIFO_tb/reset
+add wave -position end  sim:/FIFO_tb/read
+add wave -position end  sim:/FIFO_tb/write
+add wave -position end  sim:/FIFO_tb/inputBus
+add wave -position end  sim:/FIFO_tb/resetState
+add wave -position end  sim:/FIFO_tb/empty
+add wave -position end  sim:/FIFO_tb/full
+add wave -position end  sim:/FIFO_tb/outputBus
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/aidan/OneDrive/Documents/UW-aidan-studio2/Notes/2024-2025/Autumn/EE371/Labs/Lab 2/Task 3/fifowave.do}
+do runlab
+# Cannot open macro file: runlab
+do runlabfifo.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:22:08 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO.sv 
+# -- Compiling module FIFO
+# -- Compiling module FIFO_tb
+# 
+# Top level modules:
+# 	FIFO_tb
+# End time: 12:22:08 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:22:08 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO_ctrl.sv 
+# -- Compiling module fifo_ctrl
+# -- Compiling module fifo_ctrl_tb
+# 
+# Top level modules:
+# 	fifo_ctrl_tb
+# End time: 12:22:08 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:22:08 on Oct 19,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# End time: 12:22:08 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:22:08 on Oct 19,2024
+# vlog -reportprogress 300 ./dpram.sv 
+# -- Compiling module dpram
+# -- Compiling module dpram_tb
+# 
+# Top level modules:
+# 	dpram_tb
+# End time: 12:22:08 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:22:08 on Oct 19,2024
+# vlog -reportprogress 300 ./Lab2Task3.sv 
+# -- Compiling module Lab2Task3
+# -- Compiling module Lab2Task3_tb
+# 
+# Top level modules:
+# 	Lab2Task3_tb
+# End time: 12:22:08 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:22:08 on Oct 19,2024
+# vlog -reportprogress 300 ./buttonCheck.sv 
+# -- Compiling module buttonCheck
+# -- Compiling module buttonCheck_tb
+# 
+# Top level modules:
+# 	buttonCheck_tb
+# End time: 12:22:08 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:22:13 on Oct 19,2024, Elapsed time: 0:01:23
+# Errors: 40, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work work.FIFO_tb -Lf altera_mf_ver 
+# Start time: 12:22:13 on Oct 19,2024
+# Loading sv_std.std
+# Loading work.FIFO_tb
+# Loading work.FIFO
+# Loading work.dpram
+# Loading work.fifo_ctrl
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./FIFO.sv(117)
+#    Time: 9450 ps  Iteration: 1  Instance: /FIFO_tb
+# Break in Module FIFO_tb at ./FIFO.sv line 117
+add wave -position end  sim:/FIFO_tb/dut/writeAddr
+add wave -position end  sim:/FIFO_tb/dut/readAddr
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/aidan/OneDrive/Documents/UW-aidan-studio2/Notes/2024-2025/Autumn/EE371/Labs/Lab 2/Task 3/fifowave.do}
+do runlabfifo.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:14 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO.sv 
+# -- Compiling module FIFO
+# -- Compiling module FIFO_tb
+# 
+# Top level modules:
+# 	FIFO_tb
+# End time: 12:25:14 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:14 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO_ctrl.sv 
+# -- Compiling module fifo_ctrl
+# -- Compiling module fifo_ctrl_tb
+# 
+# Top level modules:
+# 	fifo_ctrl_tb
+# End time: 12:25:14 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:14 on Oct 19,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# End time: 12:25:14 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:14 on Oct 19,2024
+# vlog -reportprogress 300 ./dpram.sv 
+# -- Compiling module dpram
+# -- Compiling module dpram_tb
+# 
+# Top level modules:
+# 	dpram_tb
+# End time: 12:25:14 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:14 on Oct 19,2024
+# vlog -reportprogress 300 ./Lab2Task3.sv 
+# -- Compiling module Lab2Task3
+# -- Compiling module Lab2Task3_tb
+# 
+# Top level modules:
+# 	Lab2Task3_tb
+# End time: 12:25:14 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:25:14 on Oct 19,2024
+# vlog -reportprogress 300 ./buttonCheck.sv 
+# -- Compiling module buttonCheck
+# -- Compiling module buttonCheck_tb
+# 
+# Top level modules:
+# 	buttonCheck_tb
+# End time: 12:25:15 on Oct 19,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 12:25:19 on Oct 19,2024, Elapsed time: 0:03:06
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work work.FIFO_tb -Lf altera_mf_ver 
+# Start time: 12:25:19 on Oct 19,2024
+# Loading sv_std.std
+# Loading work.FIFO_tb
+# Loading work.FIFO
+# Loading work.dpram
+# Loading work.fifo_ctrl
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./FIFO.sv(116)
+#    Time: 9450 ps  Iteration: 1  Instance: /FIFO_tb
+# Break in Module FIFO_tb at ./FIFO.sv line 116
+add wave -position end  sim:/FIFO_tb/dut/register/array_reg
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/aidan/OneDrive/Documents/UW-aidan-studio2/Notes/2024-2025/Autumn/EE371/Labs/Lab 2/Task 3/fifowave.do}
+do runlab
+# Cannot open macro file: runlab
+do runlabfifo.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:26:32 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO.sv 
+# -- Compiling module FIFO
+# -- Compiling module FIFO_tb
+# 
+# Top level modules:
+# 	FIFO_tb
+# End time: 12:26:32 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:26:32 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO_ctrl.sv 
+# -- Compiling module fifo_ctrl
+# -- Compiling module fifo_ctrl_tb
+# 
+# Top level modules:
+# 	fifo_ctrl_tb
+# End time: 12:26:32 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:26:33 on Oct 19,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# End time: 12:26:33 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:26:33 on Oct 19,2024
+# vlog -reportprogress 300 ./dpram.sv 
+# -- Compiling module dpram
+# -- Compiling module dpram_tb
+# 
+# Top level modules:
+# 	dpram_tb
+# End time: 12:26:33 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:26:33 on Oct 19,2024
+# vlog -reportprogress 300 ./Lab2Task3.sv 
+# -- Compiling module Lab2Task3
+# -- Compiling module Lab2Task3_tb
+# 
+# Top level modules:
+# 	Lab2Task3_tb
+# End time: 12:26:33 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:26:33 on Oct 19,2024
+# vlog -reportprogress 300 ./buttonCheck.sv 
+# -- Compiling module buttonCheck
+# -- Compiling module buttonCheck_tb
+# 
+# Top level modules:
+# 	buttonCheck_tb
+# End time: 12:26:33 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:26:36 on Oct 19,2024, Elapsed time: 0:01:17
+# Errors: 1, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work work.FIFO_tb -Lf altera_mf_ver 
+# Start time: 12:26:36 on Oct 19,2024
+# Loading sv_std.std
+# Loading work.FIFO_tb
+# Loading work.FIFO
+# Loading work.dpram
+# Loading work.fifo_ctrl
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./FIFO.sv(116)
+#    Time: 9450 ps  Iteration: 1  Instance: /FIFO_tb
+# Break in Module FIFO_tb at ./FIFO.sv line 116
+do runlabfifo_ctrl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:32:39 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO.sv 
+# -- Compiling module FIFO
+# -- Compiling module FIFO_tb
+# 
+# Top level modules:
+# 	FIFO_tb
+# End time: 12:32:39 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:32:39 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO_ctrl.sv 
+# -- Compiling module fifo_ctrl
+# -- Compiling module fifo_ctrl_tb
+# 
+# Top level modules:
+# 	fifo_ctrl_tb
+# End time: 12:32:40 on Oct 19,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:32:40 on Oct 19,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# End time: 12:32:40 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:32:40 on Oct 19,2024
+# vlog -reportprogress 300 ./dpram.sv 
+# -- Compiling module dpram
+# -- Compiling module dpram_tb
+# 
+# Top level modules:
+# 	dpram_tb
+# End time: 12:32:40 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:32:40 on Oct 19,2024
+# vlog -reportprogress 300 ./Lab2Task3.sv 
+# -- Compiling module Lab2Task3
+# -- Compiling module Lab2Task3_tb
+# 
+# Top level modules:
+# 	Lab2Task3_tb
+# End time: 12:32:40 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:32:40 on Oct 19,2024
+# vlog -reportprogress 300 ./buttonCheck.sv 
+# -- Compiling module buttonCheck
+# -- Compiling module buttonCheck_tb
+# 
+# Top level modules:
+# 	buttonCheck_tb
+# End time: 12:32:40 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:32:44 on Oct 19,2024, Elapsed time: 0:06:08
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work work.fifo_ctrl_tb -Lf altera_mf_ver 
+# Start time: 12:32:44 on Oct 19,2024
+# Loading sv_std.std
+# Loading work.fifo_ctrl_tb
+# Loading work.fifo_ctrl
+# ** Error: Cannot open macro file: fifo_ctrlwave.do
+# Error in macro ./runlabfifo_ctrl.do line 23
+# Cannot open macro file: fifo_ctrlwave.do
+#     while executing
+# "do fifo_ctrlwave.do"
+add wave -position end  sim:/fifo_ctrl_tb/clk
+add wave -position end  sim:/fifo_ctrl_tb/reset
+add wave -position end  sim:/fifo_ctrl_tb/rd
+add wave -position end  sim:/fifo_ctrl_tb/wr
+add wave -position end  sim:/fifo_ctrl_tb/empty
+add wave -position end  sim:/fifo_ctrl_tb/full
+add wave -position end  sim:/fifo_ctrl_tb/w_addr
+add wave -position end  sim:/fifo_ctrl_tb/r_addr
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/aidan/OneDrive/Documents/UW-aidan-studio2/Notes/2024-2025/Autumn/EE371/Labs/Lab 2/Task 3/fifo_ctrlwave.do}
+do runlabfifo_ctrl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:33:33 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO.sv 
+# -- Compiling module FIFO
+# -- Compiling module FIFO_tb
+# 
+# Top level modules:
+# 	FIFO_tb
+# End time: 12:33:33 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:33:33 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO_ctrl.sv 
+# -- Compiling module fifo_ctrl
+# -- Compiling module fifo_ctrl_tb
+# 
+# Top level modules:
+# 	fifo_ctrl_tb
+# End time: 12:33:33 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:33:33 on Oct 19,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# End time: 12:33:33 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:33:33 on Oct 19,2024
+# vlog -reportprogress 300 ./dpram.sv 
+# -- Compiling module dpram
+# -- Compiling module dpram_tb
+# 
+# Top level modules:
+# 	dpram_tb
+# End time: 12:33:33 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:33:33 on Oct 19,2024
+# vlog -reportprogress 300 ./Lab2Task3.sv 
+# -- Compiling module Lab2Task3
+# -- Compiling module Lab2Task3_tb
+# 
+# Top level modules:
+# 	Lab2Task3_tb
+# End time: 12:33:34 on Oct 19,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:33:34 on Oct 19,2024
+# vlog -reportprogress 300 ./buttonCheck.sv 
+# -- Compiling module buttonCheck
+# -- Compiling module buttonCheck_tb
+# 
+# Top level modules:
+# 	buttonCheck_tb
+# End time: 12:33:34 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:33:37 on Oct 19,2024, Elapsed time: 0:00:53
+# Errors: 3, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work work.fifo_ctrl_tb -Lf altera_mf_ver 
+# Start time: 12:33:37 on Oct 19,2024
+# Loading sv_std.std
+# Loading work.fifo_ctrl_tb
+# Loading work.fifo_ctrl
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./FIFO_ctrl.sv(125)
+#    Time: 166 ps  Iteration: 1  Instance: /fifo_ctrl_tb
+# Break in Module fifo_ctrl_tb at ./FIFO_ctrl.sv line 125
+do runlabdpram.do.do
+# Cannot open macro file: runlabdpram.do.do
+do runlabdpram.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:35 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO.sv 
+# -- Compiling module FIFO
+# -- Compiling module FIFO_tb
+# 
+# Top level modules:
+# 	FIFO_tb
+# End time: 12:37:35 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:35 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO_ctrl.sv 
+# -- Compiling module fifo_ctrl
+# -- Compiling module fifo_ctrl_tb
+# 
+# Top level modules:
+# 	fifo_ctrl_tb
+# End time: 12:37:35 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:35 on Oct 19,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# End time: 12:37:35 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:35 on Oct 19,2024
+# vlog -reportprogress 300 ./dpram.sv 
+# -- Compiling module dpram
+# -- Compiling module dpram_tb
+# 
+# Top level modules:
+# 	dpram_tb
+# End time: 12:37:35 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:35 on Oct 19,2024
+# vlog -reportprogress 300 ./Lab2Task3.sv 
+# -- Compiling module Lab2Task3
+# -- Compiling module Lab2Task3_tb
+# 
+# Top level modules:
+# 	Lab2Task3_tb
+# End time: 12:37:35 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:37:36 on Oct 19,2024
+# vlog -reportprogress 300 ./buttonCheck.sv 
+# -- Compiling module buttonCheck
+# -- Compiling module buttonCheck_tb
+# 
+# Top level modules:
+# 	buttonCheck_tb
+# End time: 12:37:36 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:37:40 on Oct 19,2024, Elapsed time: 0:04:03
+# Errors: 1, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work work.dpram_tb -Lf altera_mf_ver 
+# Start time: 12:37:40 on Oct 19,2024
+# Loading sv_std.std
+# Loading work.dpram_tb
+# Loading work.dpram
+# ** Error: Cannot open macro file: dpramwave.do
+# Error in macro ./runlabdpram.do line 23
+# Cannot open macro file: dpramwave.do
+#     while executing
+# "do dpramwave.do"
+add wave -position end  sim:/dpram_tb/clk
+add wave -position end  sim:/dpram_tb/w_en
+add wave -position end  sim:/dpram_tb/w_addr
+add wave -position end  sim:/dpram_tb/r_addr
+add wave -position end  sim:/dpram_tb/w_data
+add wave -position end  sim:/dpram_tb/r_data
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/aidan/OneDrive/Documents/UW-aidan-studio2/Notes/2024-2025/Autumn/EE371/Labs/Lab 2/Task 3/dpramwave.do}
+do runlabdpram.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:39:01 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO.sv 
+# -- Compiling module FIFO
+# -- Compiling module FIFO_tb
+# 
+# Top level modules:
+# 	FIFO_tb
+# End time: 12:39:01 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:39:01 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO_ctrl.sv 
+# -- Compiling module fifo_ctrl
+# -- Compiling module fifo_ctrl_tb
+# 
+# Top level modules:
+# 	fifo_ctrl_tb
+# End time: 12:39:01 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:39:01 on Oct 19,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# End time: 12:39:01 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:39:01 on Oct 19,2024
+# vlog -reportprogress 300 ./dpram.sv 
+# -- Compiling module dpram
+# -- Compiling module dpram_tb
+# 
+# Top level modules:
+# 	dpram_tb
+# End time: 12:39:01 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:39:01 on Oct 19,2024
+# vlog -reportprogress 300 ./Lab2Task3.sv 
+# -- Compiling module Lab2Task3
+# -- Compiling module Lab2Task3_tb
+# 
+# Top level modules:
+# 	Lab2Task3_tb
+# End time: 12:39:01 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:39:01 on Oct 19,2024
+# vlog -reportprogress 300 ./buttonCheck.sv 
+# -- Compiling module buttonCheck
+# -- Compiling module buttonCheck_tb
+# 
+# Top level modules:
+# 	buttonCheck_tb
+# End time: 12:39:01 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:39:06 on Oct 19,2024, Elapsed time: 0:01:26
+# Errors: 3, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work work.dpram_tb -Lf altera_mf_ver 
+# Start time: 12:39:06 on Oct 19,2024
+# Loading sv_std.std
+# Loading work.dpram_tb
+# Loading work.dpram
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./dpram.sv(71)
+#    Time: 22 ps  Iteration: 1  Instance: /dpram_tb
+# Break in Module dpram_tb at ./dpram.sv line 71
+do runlab
+# Cannot open macro file: runlab
+do runlabdpram.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:42:23 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO.sv 
+# -- Compiling module FIFO
+# -- Compiling module FIFO_tb
+# 
+# Top level modules:
+# 	FIFO_tb
+# End time: 12:42:23 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:42:23 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO_ctrl.sv 
+# -- Compiling module fifo_ctrl
+# -- Compiling module fifo_ctrl_tb
+# 
+# Top level modules:
+# 	fifo_ctrl_tb
+# End time: 12:42:23 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:42:23 on Oct 19,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# End time: 12:42:23 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:42:23 on Oct 19,2024
+# vlog -reportprogress 300 ./dpram.sv 
+# -- Compiling module dpram
+# -- Compiling module dpram_tb
+# 
+# Top level modules:
+# 	dpram_tb
+# End time: 12:42:23 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:42:23 on Oct 19,2024
+# vlog -reportprogress 300 ./Lab2Task3.sv 
+# -- Compiling module Lab2Task3
+# -- Compiling module Lab2Task3_tb
+# 
+# Top level modules:
+# 	Lab2Task3_tb
+# End time: 12:42:23 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:42:23 on Oct 19,2024
+# vlog -reportprogress 300 ./buttonCheck.sv 
+# -- Compiling module buttonCheck
+# -- Compiling module buttonCheck_tb
+# 
+# Top level modules:
+# 	buttonCheck_tb
+# End time: 12:42:23 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:42:31 on Oct 19,2024, Elapsed time: 0:03:25
+# Errors: 1, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work work.dpram_tb -Lf altera_mf_ver 
+# Start time: 12:42:31 on Oct 19,2024
+# Loading sv_std.std
+# Loading work.dpram_tb
+# Loading work.dpram
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./dpram.sv(71)
+#    Time: 110 ps  Iteration: 1  Instance: /dpram_tb
+# Break in Module dpram_tb at ./dpram.sv line 71
+do runlabbuttonCheck.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:30 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO.sv 
+# -- Compiling module FIFO
+# -- Compiling module FIFO_tb
+# 
+# Top level modules:
+# 	FIFO_tb
+# End time: 12:45:30 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:30 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO_ctrl.sv 
+# -- Compiling module fifo_ctrl
+# -- Compiling module fifo_ctrl_tb
+# 
+# Top level modules:
+# 	fifo_ctrl_tb
+# End time: 12:45:30 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:30 on Oct 19,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# End time: 12:45:30 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:30 on Oct 19,2024
+# vlog -reportprogress 300 ./dpram.sv 
+# -- Compiling module dpram
+# -- Compiling module dpram_tb
+# 
+# Top level modules:
+# 	dpram_tb
+# End time: 12:45:30 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:30 on Oct 19,2024
+# vlog -reportprogress 300 ./Lab2Task3.sv 
+# -- Compiling module Lab2Task3
+# -- Compiling module Lab2Task3_tb
+# 
+# Top level modules:
+# 	Lab2Task3_tb
+# End time: 12:45:31 on Oct 19,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:45:31 on Oct 19,2024
+# vlog -reportprogress 300 ./buttonCheck.sv 
+# -- Compiling module buttonCheck
+# -- Compiling module buttonCheck_tb
+# 
+# Top level modules:
+# 	buttonCheck_tb
+# End time: 12:45:31 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:45:38 on Oct 19,2024, Elapsed time: 0:03:07
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work work.buttonCheck_tb -Lf altera_mf_ver 
+# Start time: 12:45:38 on Oct 19,2024
+# Loading sv_std.std
+# Loading work.buttonCheck_tb
+# Loading work.buttonCheck
+# ** Error: Cannot open macro file: buttonCheckwave.do
+# Error in macro ./runlabbuttonCheck.do line 23
+# Cannot open macro file: buttonCheckwave.do
+#     while executing
+# "do buttonCheckwave.do"
+add wave -position end  sim:/buttonCheck_tb/clk
+add wave -position end  sim:/buttonCheck_tb/reset
+add wave -position end  sim:/buttonCheck_tb/button
+add wave -position end  sim:/buttonCheck_tb/out
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/aidan/OneDrive/Documents/UW-aidan-studio2/Notes/2024-2025/Autumn/EE371/Labs/Lab 2/Task 3/cuttonCheckwave.do}
+do runlabbuttonCheck.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:46:08 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO.sv 
+# -- Compiling module FIFO
+# -- Compiling module FIFO_tb
+# 
+# Top level modules:
+# 	FIFO_tb
+# End time: 12:46:08 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:46:08 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO_ctrl.sv 
+# -- Compiling module fifo_ctrl
+# -- Compiling module fifo_ctrl_tb
+# 
+# Top level modules:
+# 	fifo_ctrl_tb
+# End time: 12:46:08 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:46:08 on Oct 19,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# End time: 12:46:09 on Oct 19,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:46:09 on Oct 19,2024
+# vlog -reportprogress 300 ./dpram.sv 
+# -- Compiling module dpram
+# -- Compiling module dpram_tb
+# 
+# Top level modules:
+# 	dpram_tb
+# End time: 12:46:09 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:46:09 on Oct 19,2024
+# vlog -reportprogress 300 ./Lab2Task3.sv 
+# -- Compiling module Lab2Task3
+# -- Compiling module Lab2Task3_tb
+# 
+# Top level modules:
+# 	Lab2Task3_tb
+# End time: 12:46:09 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:46:09 on Oct 19,2024
+# vlog -reportprogress 300 ./buttonCheck.sv 
+# -- Compiling module buttonCheck
+# -- Compiling module buttonCheck_tb
+# 
+# Top level modules:
+# 	buttonCheck_tb
+# End time: 12:46:09 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:46:15 on Oct 19,2024, Elapsed time: 0:00:37
+# Errors: 3, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work work.buttonCheck_tb -Lf altera_mf_ver 
+# Start time: 12:46:15 on Oct 19,2024
+# Loading sv_std.std
+# Loading work.buttonCheck_tb
+# Loading work.buttonCheck
+# ** Error: Cannot open macro file: buttonCheckwave.do
+# Error in macro ./runlabbuttonCheck.do line 23
+# Cannot open macro file: buttonCheckwave.do
+#     while executing
+# "do buttonCheckwave.do"
+do runlabbuttonCheck.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:04 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO.sv 
+# -- Compiling module FIFO
+# -- Compiling module FIFO_tb
+# 
+# Top level modules:
+# 	FIFO_tb
+# End time: 12:47:04 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:04 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO_ctrl.sv 
+# -- Compiling module fifo_ctrl
+# -- Compiling module fifo_ctrl_tb
+# 
+# Top level modules:
+# 	fifo_ctrl_tb
+# End time: 12:47:04 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:04 on Oct 19,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# End time: 12:47:04 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:04 on Oct 19,2024
+# vlog -reportprogress 300 ./dpram.sv 
+# -- Compiling module dpram
+# -- Compiling module dpram_tb
+# 
+# Top level modules:
+# 	dpram_tb
+# End time: 12:47:04 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:05 on Oct 19,2024
+# vlog -reportprogress 300 ./Lab2Task3.sv 
+# -- Compiling module Lab2Task3
+# -- Compiling module Lab2Task3_tb
+# 
+# Top level modules:
+# 	Lab2Task3_tb
+# End time: 12:47:05 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:47:05 on Oct 19,2024
+# vlog -reportprogress 300 ./buttonCheck.sv 
+# -- Compiling module buttonCheck
+# -- Compiling module buttonCheck_tb
+# 
+# Top level modules:
+# 	buttonCheck_tb
+# End time: 12:47:05 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:47:10 on Oct 19,2024, Elapsed time: 0:00:55
+# Errors: 3, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work work.buttonCheck_tb -Lf altera_mf_ver 
+# Start time: 12:47:10 on Oct 19,2024
+# Loading sv_std.std
+# Loading work.buttonCheck_tb
+# Loading work.buttonCheck
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./buttonCheck.sv(96)
+#    Time: 50 ps  Iteration: 1  Instance: /buttonCheck_tb
+# Break in Module buttonCheck_tb at ./buttonCheck.sv line 96
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:50:02 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO.sv 
+# -- Compiling module FIFO
+# -- Compiling module FIFO_tb
+# 
+# Top level modules:
+# 	FIFO_tb
+# End time: 12:50:02 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:50:02 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO_ctrl.sv 
+# -- Compiling module fifo_ctrl
+# -- Compiling module fifo_ctrl_tb
+# 
+# Top level modules:
+# 	fifo_ctrl_tb
+# End time: 12:50:02 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:50:02 on Oct 19,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# End time: 12:50:02 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:50:02 on Oct 19,2024
+# vlog -reportprogress 300 ./dpram.sv 
+# -- Compiling module dpram
+# -- Compiling module dpram_tb
+# 
+# Top level modules:
+# 	dpram_tb
+# End time: 12:50:03 on Oct 19,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:50:03 on Oct 19,2024
+# vlog -reportprogress 300 ./Lab2Task3.sv 
+# -- Compiling module Lab2Task3
+# -- Compiling module Lab2Task3_tb
+# 
+# Top level modules:
+# 	Lab2Task3_tb
+# End time: 12:50:03 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:50:03 on Oct 19,2024
+# vlog -reportprogress 300 ./buttonCheck.sv 
+# -- Compiling module buttonCheck
+# -- Compiling module buttonCheck_tb
+# 
+# Top level modules:
+# 	buttonCheck_tb
+# End time: 12:50:03 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:50:09 on Oct 19,2024, Elapsed time: 0:02:59
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work work.Lab2Task3_tb -Lf altera_mf_ver 
+# Start time: 12:50:09 on Oct 19,2024
+# Loading sv_std.std
+# Loading work.Lab2Task3_tb
+# Loading work.Lab2Task3
+# Loading work.buttonCheck
+# Loading work.FIFO
+# Loading work.dpram
+# Loading work.fifo_ctrl
+# Loading work.seg7
+# ** Warning: (vsim-3015) ./Lab2Task3.sv(50): [PCDPC] - Port size (16) does not match connection size (8) for port 'inputBus'. The port definition is at: ./FIFO.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab2Task3_tb/dut/main File: ./FIFO.sv
+# ** Warning: (vsim-3015) ./Lab2Task3.sv(50): [PCDPC] - Port size (16) does not match connection size (8) for port 'outputBus'. The port definition is at: ./FIFO.sv(23).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab2Task3_tb/dut/main File: ./FIFO.sv
+# ** Warning: (vsim-3015) ./Lab2Task3.sv(70): [PCDPC] - Port size (4) does not match connection size (7) for port 'hex'. The port definition is at: ./seg7.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab2Task3_tb/dut/hex5 File: ./seg7.sv
+# ** Warning: (vsim-3015) ./Lab2Task3.sv(73): [PCDPC] - Port size (4) does not match connection size (7) for port 'hex'. The port definition is at: ./seg7.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab2Task3_tb/dut/hex1 File: ./seg7.sv
+# ** Error: (vish-4014) No objects found matching '/FIFO_testbench/clk'.
+# Executing ONERROR command at macro ./wave.do line 3
+# ** Error: (vish-4014) No objects found matching '/FIFO_testbench/reset'.
+# Executing ONERROR command at macro ./wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/FIFO_testbench/read'.
+# Executing ONERROR command at macro ./wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/FIFO_testbench/write'.
+# Executing ONERROR command at macro ./wave.do line 6
+# ** Error: (vish-4014) No objects found matching '/FIFO_testbench/inputBus'.
+# Executing ONERROR command at macro ./wave.do line 7
+# ** Error: (vish-4014) No objects found matching '/FIFO_testbench/empty'.
+# Executing ONERROR command at macro ./wave.do line 8
+# ** Error: (vish-4014) No objects found matching '/FIFO_testbench/full'.
+# Executing ONERROR command at macro ./wave.do line 9
+# ** Error: (vish-4014) No objects found matching '/FIFO_testbench/outputBus'.
+# Executing ONERROR command at macro ./wave.do line 10
+# ** Error: (vish-4014) No objects found matching '/FIFO_testbench/dut/register/array_reg'.
+# Executing ONERROR command at macro ./wave.do line 11
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./Lab2Task3.sv(163)
+#    Time: 194 ps  Iteration: 1  Instance: /Lab2Task3_tb
+# Break in Module Lab2Task3_tb at ./Lab2Task3.sv line 163
+add wave -position end  sim:/Lab2Task3_tb/CLOCK_50
+add wave -position end  sim:/Lab2Task3_tb/SW[7]
+add wave -position end  sim:/Lab2Task3_tb/SW[6]
+add wave -position end  sim:/Lab2Task3_tb/SW[5]
+add wave -position end  sim:/Lab2Task3_tb/SW[4]
+add wave -position end  sim:/Lab2Task3_tb/SW[3]
+add wave -position end  sim:/Lab2Task3_tb/SW[2]
+add wave -position end  sim:/Lab2Task3_tb/SW[1]
+add wave -position end  sim:/Lab2Task3_tb/SW[0]
+add wave -position end  sim:/Lab2Task3_tb/KEY[3]
+add wave -position end  sim:/Lab2Task3_tb/KEY[2]
+add wave -position end  sim:/Lab2Task3_tb/KEY[0]
+add wave -position end  sim:/Lab2Task3_tb/LEDR[9]
+add wave -position end  sim:/Lab2Task3_tb/LEDR[8]
+add wave -position end  sim:/Lab2Task3_tb/HEX0
+add wave -position end  sim:/Lab2Task3_tb/HEX1
+add wave -position end  sim:/Lab2Task3_tb/HEX4
+add wave -position end  sim:/Lab2Task3_tb/HEX5
+add wave -position end  sim:/Lab2Task3_tb/dut/main/register/array_reg
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/aidan/OneDrive/Documents/UW-aidan-studio2/Notes/2024-2025/Autumn/EE371/Labs/Lab 2/Task 3/wave.do}
+do runlab
+# Cannot open macro file: runlab
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:52:15 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO.sv 
+# -- Compiling module FIFO
+# -- Compiling module FIFO_tb
+# 
+# Top level modules:
+# 	FIFO_tb
+# End time: 12:52:15 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:52:15 on Oct 19,2024
+# vlog -reportprogress 300 ./FIFO_ctrl.sv 
+# -- Compiling module fifo_ctrl
+# -- Compiling module fifo_ctrl_tb
+# 
+# Top level modules:
+# 	fifo_ctrl_tb
+# End time: 12:52:15 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:52:15 on Oct 19,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# End time: 12:52:16 on Oct 19,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:52:16 on Oct 19,2024
+# vlog -reportprogress 300 ./dpram.sv 
+# -- Compiling module dpram
+# -- Compiling module dpram_tb
+# 
+# Top level modules:
+# 	dpram_tb
+# End time: 12:52:16 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:52:16 on Oct 19,2024
+# vlog -reportprogress 300 ./Lab2Task3.sv 
+# -- Compiling module Lab2Task3
+# -- Compiling module Lab2Task3_tb
+# 
+# Top level modules:
+# 	Lab2Task3_tb
+# End time: 12:52:16 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:52:16 on Oct 19,2024
+# vlog -reportprogress 300 ./buttonCheck.sv 
+# -- Compiling module buttonCheck
+# -- Compiling module buttonCheck_tb
+# 
+# Top level modules:
+# 	buttonCheck_tb
+# End time: 12:52:16 on Oct 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:52:22 on Oct 19,2024, Elapsed time: 0:02:13
+# Errors: 28, Warnings: 4
+# vsim -voptargs=""+acc"" -t 1ps -lib work work.Lab2Task3_tb -Lf altera_mf_ver 
+# Start time: 12:52:22 on Oct 19,2024
+# Loading sv_std.std
+# Loading work.Lab2Task3_tb
+# Loading work.Lab2Task3
+# Loading work.buttonCheck
+# Loading work.FIFO
+# Loading work.dpram
+# Loading work.fifo_ctrl
+# Loading work.seg7
+# ** Warning: (vsim-3015) ./Lab2Task3.sv(50): [PCDPC] - Port size (16) does not match connection size (8) for port 'inputBus'. The port definition is at: ./FIFO.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab2Task3_tb/dut/main File: ./FIFO.sv
+# ** Warning: (vsim-3015) ./Lab2Task3.sv(50): [PCDPC] - Port size (16) does not match connection size (8) for port 'outputBus'. The port definition is at: ./FIFO.sv(23).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab2Task3_tb/dut/main File: ./FIFO.sv
+# ** Warning: (vsim-3015) ./Lab2Task3.sv(70): [PCDPC] - Port size (4) does not match connection size (7) for port 'hex'. The port definition is at: ./seg7.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab2Task3_tb/dut/hex5 File: ./seg7.sv
+# ** Warning: (vsim-3015) ./Lab2Task3.sv(73): [PCDPC] - Port size (4) does not match connection size (7) for port 'hex'. The port definition is at: ./seg7.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab2Task3_tb/dut/hex1 File: ./seg7.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./Lab2Task3.sv(163)
+#    Time: 194 ps  Iteration: 1  Instance: /Lab2Task3_tb
+# Break in Module Lab2Task3_tb at ./Lab2Task3.sv line 163
+# End time: 18:27:32 on Oct 20,2024, Elapsed time: 29:35:10
+# Errors: 0, Warnings: 4

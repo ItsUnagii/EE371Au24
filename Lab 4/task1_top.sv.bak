@@ -1,0 +1,22 @@
+module task1_top (CLOCK_50, KEY, SW, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5);
+
+    input  logic CLOCK_50;
+    input  logic [3:0] KEY;
+    input  logic [9:0] SW;
+    output logic [6:0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5;
+
+    logic clk, reset;
+    
+    assign reset = ~KEY[0];
+    assign clk = CLOCK_50;
+
+    // Two DFFs to reduce chance of metastability for s
+    logic s_1, s;
+    always_ff @(posedge clk) begin
+        s_1 <= ~KEY[3];
+        s <= s_1;
+    end
+    
+
+
+endmodule

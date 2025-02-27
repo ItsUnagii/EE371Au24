@@ -1,0 +1,118 @@
+module task2_control (reset, clk, A, start, found, notfound, done, loc);
+
+   input logic reset, clk, start;
+   input logic [7:0] A;
+    
+   output logic found, notfound, done;
+   output logic [4:0] loc;
+
+	// upper bounds and lower bounds of the binary search. added an extra bit so that it can hold 32
+   logic [5:0] upper_bound, lower_bound;
+   // The address to check: the middle address between the upper bound and lower bound. 5 bits to match the RAM module
+   logic [4:0] to_check;
+   // Data_out - The data out of the RAM module after feeding it in an address
+   logic [7:0] data_out;
+   // next_bounds - Control signal that reports whether the upper or lower
+   // bounds should be adjusted for the next search. 2 bits long so that 2'b11 can
+   // signal to stop adjusting bounds
+   logic [1:0] next_bounds;
+
+   // control circuit
+   logic [2:0] ps, ns;
+	parameter S1 = 3'b000, S2 = 3'b001, S3 = 3'b010, S4 = 3'b011, S5 = 3'b100;
+
+    // internal status signal to report the value was not found (INTERNAL ONLY)
+    logic change_bounds;
+
+    // state logic
+    always_comb begin
+        case (ps) 
+            S1: if (start == 0) ns = S1; // initial state: wait until start signal
+                else ns = S2;
+            S2: ns = S3; // do algorithm for one clock cycle
+            S3: if (data_out == A || notfound) ns = S5; // decide if algorithm should be repeated or if we are done
+                else ns = S4;
+            S4: ns = S2; // update bounds
+            S5: if (start == 0) ns = S1; // done state
+                else ns = S5;
+        endcase
+    end
+
+    // state control ff
+    always_ff @(posedge clk) begin
+        if (reset)
+            ps <= S1;    
+        else
+            ps <= ns;
+    end
+
+
+    // comb logic that assigns control and status signals - prepares what direction 
+	 // next upper and lower bounds should go to if value not found
+    always_comb begin
+        done = 0; loc = 0; next_bounds = 2'b11;
+        case (ps)
+            S4: begin
+                if (data_out > A) begin    
+                    next_bounds = 0;
+                end
+                else if (data_out < A) begin
+                    next_bounds = 1;
+                end
+            end
+            S5: begin
+                // edge case: if data not found, report 0
+                if (!notfound)
+                    loc = to_check;
+
+                done = 1;
+            end
+				default: begin
+					done = 0; loc = 0; next_bounds = 2'b11;
+				end
+        endcase
+    end
+
+    // clock logic to make upper and lower bounds assigned on correct clock cycle
+    always_ff @(posedge clk) begin
+			// default case
+         if (reset || start == 0) begin 
+            upper_bound <= 32;
+            lower_bound <= 0;
+         end
+         // edge case: when value is at upper bound address 31
+         else if (change_bounds) begin
+            upper_bound <= 33;
+            lower_bound <= 31;
+         // adjust lower bounds (according to next_bounds)
+         end else if (next_bounds == 2'b01) begin
+            upper_bound <= upper_bound;
+            lower_bound <= to_check + 1;
+         // adjust upper bounds (according to next_bounds)
+         end else if (next_bounds == 2'b00) begin
+            upper_bound <= to_check + 1;
+            lower_bound <= lower_bound;
+         // otherwise, don't touch the bounds. usually for initial run, or when algo finishes
+         end else begin
+            upper_bound <= upper_bound;
+            lower_bound <= lower_bound;
+         end
+    end
+
+    
+
+    
+    
+	 // calculation to determine whether to check the upper half or lower half for binary search
+    assign to_check = ((upper_bound - lower_bound)/2) + lower_bound - 1;
+    // reports that the correct value was found once finished running algorithm
+    assign found = (data_out == A) && done;
+	 //assign final_notfound = (data_out != A) && done;
+    // signal to change bounds
+    assign change_bounds = ((upper_bound == 32) && (lower_bound == 31));
+    // signal to check that the value was not found (INTERNAL ONLY, CONSTANTLY UPDATED, DIFFERENT FROM final_notfound
+	 // WHICH IS ONLY CHECKED AT THE END)
+    assign notfound = ((upper_bound - lower_bound) == 1) && (data_out != A);
+	 // assign final_notfound = not_found;
+
+endmodule

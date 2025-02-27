@@ -1,0 +1,8 @@
+
+State Machine - |De1SoC|task2:taskDisp2|task2_control:c_unit|ps
+Name ps.S4 ps.S3 ps.S2 ps.S1 ps.S5 
+ps.S1 0 0 0 0 0 
+ps.S2 0 0 1 1 0 
+ps.S3 0 1 0 1 0 
+ps.S4 1 0 0 1 0 
+ps.S5 0 0 0 1 1 

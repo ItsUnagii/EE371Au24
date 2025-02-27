@@ -1,0 +1,38 @@
+module task1_tb ();
+    parameter N = 8;
+
+    logic reset, clk, s;
+    logic [N-1:0] A;
+    logic done;
+    logic [N-1:0] result;
+
+    // Clock logic
+    parameter CLOCK_PERIOD = 5; // Increase clock frequency
+    initial begin
+        clk <= 0;
+        forever #(CLOCK_PERIOD/2) clk <= ~clk; // Forever toggle the clock
+    end
+
+    task1 #(N) dut (.*);
+
+    initial begin
+        A <= 8'b00001111;
+        reset <= 1; s <= 0; @(posedge clk); @(posedge clk);
+        reset <= 0; s <= 1; @(posedge clk);
+        @(posedge done);
+
+        A <= 8'b10101010;
+        reset <= 1; s <= 0; @(posedge clk); @(posedge clk);
+        reset <= 0; s <= 1; @(posedge clk);
+        @(posedge done);
+
+        A <= 8'b10000000;
+        reset <= 1; s <= 0; @(posedge clk); @(posedge clk);
+        reset <= 0; s <= 1; @(posedge clk);
+        @(posedge done);
+
+        #100;
+        $stop;
+    end
+
+endmodule

@@ -1,0 +1,66 @@
+module line_drawer(
+    input  logic         clk, reset,
+    input  logic [9:0]   x0, x1,
+    input  logic [8:0]   y0, y1,
+    output logic [9:0]   x,
+    output logic [8:0]   y,
+//    output logic         done
+);
+
+    // Internal registers
+    logic signed [10:0] dx, dy;          // Delta values
+    logic signed [11:0] error;           // Error term
+    logic signed [11:0] y_step;          // Step size for y (1 or -1)
+    logic signed [11:0] x_step;          // Step size for x (1 or -1)
+    logic [9:0]         x_current;       // Current x coordinate
+    logic [8:0]         y_current;       // Current y coordinate
+    logic               steep;           // Flag for steep line condition
+    logic               finished;        // Flag for completion
+
+    assign x = x_current;
+    assign y = y_current;
+//    assign done = finished;
+
+    always_ff @(posedge clk or posedge reset) begin
+        if (reset) begin
+            // Initialize variables on reset
+            x_current <= x0;
+            y_current <= y0;
+            finished <= 1'b0;
+            
+            // Determine if the line is steep
+            steep <= (dy > dx);
+            
+            // Calculate delta values and step direction
+            dx <= (x1 > x0) ? (x1 - x0) : (x0 - x1);
+            dy <= (y1 > y0) ? (y1 - y0) : (y0 - y1);
+            x_step <= (x1 > x0) ? 1 : -1;
+            y_step <= (y1 > y0) ? 1 : -1;
+            
+            // Initialize error term based on delta values
+            error <= (dx > dy) ? (dx >> 1) : (dy >> 1);
+        end else if (!finished) begin
+            // Bresenham's algorithm iteration
+            if (steep) begin
+                y_current <= y_current + y_step;
+                error <= error - dx;
+                if (error < 0) begin
+                    x_current <= x_current + x_step;
+                    error <= error + dy;
+                end
+            end else begin
+                x_current <= x_current + x_step;
+                error <= error - dy;
+                if (error < 0) begin
+                    y_current <= y_current + y_step;
+                    error <= error + dx;
+                end
+            end
+            
+            // Check for completion of line drawing
+            if ((x_current == x1) && (y_current == y1)) begin
+                finished <= 1'b1;
+            end
+        end
+    end
+endmodule

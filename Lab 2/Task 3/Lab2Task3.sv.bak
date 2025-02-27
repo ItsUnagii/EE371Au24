@@ -1,0 +1,134 @@
+// Top level module for our task3. This module runs on the DE1_SoC, and can read and write
+// data from our task2 RAM, alongside a new RAM module that has separate ports for read address
+// and write address. 
+// When the task2 RAM is enabled (SW[9] = 0), SW[8:4] control the read and write address, and SW[3:1] control
+// the write value. Use SW[0] to enable writing.
+// When the new task3 RAM is enabled (SW[9] = 1), SW[8:4] controls the write address only, and SW[3:1] still 
+// controls the write value. The read value will manually increment itself every 1.5 seconds or so.
+// Both will show the contents of the memory address on HEX0, the write value on HEX 1, the read address on HEX 2 & 3,
+// and the write address on HEX 4 & 5. All of these are hexadecimal representation.
+// Use KEY[3] to reset.
+
+/***
+*	Aidan Lee, Aarin Wen
+*	10/18/2024
+*	EE371
+*	Lab 2
+*
+*	Top level module for Task 3, Lab 2
+* 	Can read and write from the RAM from task 2, and can also use a new RAM module referred to as task3 RAM 
+*	with separate ports for read and write addresses.
+*	
+* 	If the task3 RAM is disabled (SW[9] = 0), the task2 RAM is used and SW[8:4] controls the read or write address while
+*  SW[3:1] controls write value. SW[0] is write enable.
+*	If the task3 RAM is enabled (SW[9] = 1), SW[8:4] controls the write address ONLY, while SW[3:1] still controls write value.
+*	The read value manually increment itself approximately every 1.5 seconds.
+*	
+*	All RAMs will show (in hexadecimal) memory address on HEX0, the write value on HEX 1, the read address on HEX2 and HEX3, 
+*	and the write adress on HEX4 and HEX5. KEY[3] acts as a reset.
+*	
+***/
+
+module task3_DE1 (CLOCK_50, KEY, SW, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5);
+	
+
+   input  logic CLOCK_50;
+   input  logic [3:0] KEY;
+   input  logic [9:0] SW;
+   output logic [6:0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5;
+	 
+	logic Clock;
+	assign Clock = CLOCK_50;
+
+   // DataIn. Same for both ram1 and ram2
+   logic [2:0] DataIn;
+   assign DataIn = SW[3:1];
+
+   // The data that should be outputted by the two different RAM modules.
+   // Different for ram1 and ram2
+   logic [2:0] DataOutRam1;
+   logic [2:0] DataOutRam2;
+
+   // The WriteAddress. Will remain the same for ram1 and ram2
+   logic [4:0] WriteAddress;
+   assign WriteAddress = SW[8:4];
+
+   // The write data. Same for ram1 and ram2
+   logic [2:0] WriteData;
+   assign WriteData = SW[3:1];
+
+   // RAM toggle between task2 RAM and task3 RAM
+   logic ramToggle;
+   assign ramToggle = SW[9];
+
+   // Write enable. Same for ram1 and ram2
+   logic wren;
+   assign wren = SW[0];
+
+   // Reset logic. Same for both.
+   logic Reset;
+   // Two DFFs for KEY[3] to handle any metastability issues
+   logic input1;
+   logic input2;
+   always_ff @(posedge CLOCK_50) begin
+       input1 <= KEY[3];
+       input2 <= input1;
+   end
+   assign Reset = ~input2;
+
+   // Address value that increments automatically (based on the clock divider in counter)
+   logic [4:0] ReadAddress;
+
+   // Count module; will always be running and outputing an incrementing read address
+   counter count (.clock(Clock), .reset(Reset), .addr(ReadAddress));
+
+   // Ram1 module from task2. Single port. Writing is enabled when SW[9] = 0.
+   task2 ram1 (.address(WriteAddress), .clock(Clock), .data(DataIn), .wren(wren & !ramToggle), .q(DataOutRam1));
+
+   // Ram2 module. Separate ports for read and write, and writing is enabled when SW[9] = 1.
+   ram32x3port2 ram2 (.clock(Clock), .data(DataIn), .rdaddress(ReadAddress), .wraddress(WriteAddress),
+         .wren(wren & ramToggle), .q(DataOutRam2));
+    
+    
+   // Shows the write address across two hexes. Tied to switches, should always be displayed
+   seg7 hex5 ({{3{1'b0}}, WriteAddress[4]}, HEX5); // address
+   seg7 hex4 (WriteAddress[3:0], HEX4); //address
+
+   // Shows the read address. For Ram1, this should mirror the write address. However, for ram2,
+   // this should be our looping address counter.
+   logic [3:0] hex3ReadAddress;
+   logic [3:0] hex2ReadAddress;
+
+   // Combinational logic to handle the cases of toggling between the two RAMs. If ram1 is enabled, HEX3 and 2 show the read
+   // address as the same write address from SW[8:4]. If ram2 is enabled, show the incrementing counter read address.
+   always_comb begin
+       if (ramToggle) begin // if ram2 is enabled
+           hex3ReadAddress = {{3{1'b0}}, ReadAddress[4]};
+           hex2ReadAddress = ReadAddress[3:0];
+       end
+       else begin // if ram1 is enabled
+           hex3ReadAddress = {{3{1'b0}}, WriteAddress[4]};
+           hex2ReadAddress = WriteAddress[3:0];
+       end
+   end
+   // Assign the correct read address values
+   seg7 hex3 (hex3ReadAddress, HEX3); // read address
+   seg7 hex2 (hex2ReadAddress, HEX2); // read address
+
+   // Shows the write data in as a hex value. Tied to the switches, should always be displayed
+   seg7 hex1 ({1'b0, WriteData}, HEX1); 
+
+   // Shows the content of the address of the selected ram. Different based on which ram is enabled
+   logic [3:0] HexDataOut;
+    
+   // Combinational logic to show the read address value of the RAM module currently enabled.
+   always_comb begin
+       if (ramToggle) // if ram2 is enabled
+           HexDataOut = {1'b0, DataOutRam2};
+       else // if ram1 is enabled.
+           HexDataOut = {1'b0, DataOutRam1};
+   end
+   // Show this readout value on HEX0
+   seg7 hex0 (HexDataOut, HEX0); // data out
+
+endmodule

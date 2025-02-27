@@ -1,0 +1,82 @@
+module task1 (reset, clk, s, A, done, result);
+    // Parameter N: Controls bit width of input
+    parameter N = 8;
+    
+    // Port definitions
+    input logic reset, clk, s;
+    input logic [N-1:0] A;
+    output logic done;
+    output logic [N-1:0] result;
+    
+    // L - Signal to load into the shift register
+    // E - Signal to enable shift register
+    // increment - Internal status signal to increment preResult at a clock pos edge
+    // w - The a0 bit that we will be checking
+    logic L, E, increment, w;
+
+    // ShiftedA - Our value that will be right shifting
+    logic [N-1:0] ShiftedA;
+
+    // preResult - The value that is updated throughout the logic that will be
+    // our final value assigned to result
+    logic [N-1:0] preResult;
+
+    // control circuit
+    logic [1:0] ps, ns;
+	parameter S1 = 2'b00, S2 = 2'b01, S3 = 2'b10;
+
+    always_comb begin
+        case (ps) 
+            S1: if (s == 0) ns = S1;
+                else ns = S2;
+            S2: if (ShiftedA == 0) ns = S3;
+                else ns = S2;
+            S3: if (s == 0) ns = S1;
+                else ns = S3;
+        endcase
+    end
+
+    // D flip flop controling the states
+    always_ff @(posedge clk) begin
+        if (reset)
+            ps <= S1;    
+        else
+            ps <= ns;
+    end
+
+    always_comb begin
+        // Defaults
+        L = 0; E = 0; done = 0;
+        case (ps)
+            S1: begin
+                increment = 0;
+                if (s == 0) L = 1;
+                else L = 0;
+            end
+            S2: begin
+                E = 1;
+                if (ShiftedA[0] == 1) increment = 1;
+                else increment = 0;
+            end
+            S3: begin
+                done = 1;
+            end
+        endcase
+    end
+
+    // D flip flop controling the increment behavior of result
+    always_ff @(posedge clk) begin
+        if (reset)
+            preResult <= 0;
+        else if (increment == 1)
+            preResult <= preResult + 1;
+        else  
+            preResult <= preResult; 
+    end
+
+    // Datapath circuit
+    // Input data A, control signals L and E. 
+    rightshift #(N) shifter (.A(A), .L(L), .E(E), .w(1'b0), .Clock(clk), .Q(ShiftedA));
+    assign result = preResult;
+
+endmodule

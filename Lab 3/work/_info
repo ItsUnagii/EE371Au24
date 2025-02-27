@@ -1,0 +1,104 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/aidan/OneDrive/Documents/UW-aidan-studio2/Notes/2024-2025/Autumn/EE371/Labs/Lab 3
+vDE1_SoC
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1730405864
+!i10b 1
+!s100 Pm;iGEfGOgSQan]6CBYN22
+I[6f[=DaGfco=<S[`SM;eJ1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 DE1_SoC_sv_unit
+S1
+R0
+w1730405858
+8./DE1_SoC.sv
+F./DE1_SoC.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1730405864.000000
+!s107 ./DE1_SoC.sv|
+!s90 -reportprogress|300|./DE1_SoC.sv|
+!i113 1
+Z6 tCvgOpt 0
+n@d@e1_@so@c
+vline_drawer
+R1
+R2
+!i10b 1
+!s100 S;`GL1JPPYid3LjV[U0o?3
+IHI^NGA^Ue?OCjzeC4i[K11
+R3
+Z7 !s105 line_drawer_sv_unit
+S1
+R0
+Z8 w1730405621
+Z9 8./line_drawer.sv
+Z10 F./line_drawer.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+Z11 !s107 ./line_drawer.sv|
+Z12 !s90 -reportprogress|300|./line_drawer.sv|
+!i113 1
+R6
+vline_drawer_tb
+R1
+R2
+!i10b 1
+!s100 WeD[Q9Z2l`VA<P_GZ9a0W2
+ITJBk3Jn4fKOCgk^nHzXok0
+R3
+R7
+S1
+R0
+R8
+R9
+R10
+L0 153
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+vVGA_framebuffer
+R1
+!s110 1730405865
+!i10b 1
+!s100 `6A`P2RPlQ@7gHH_0b8;_1
+I;>6`]_4ZJQl=WJ?fggg7@3
+R3
+!s105 VGA_framebuffer_sv_unit
+S1
+R0
+w1729750271
+8./VGA_framebuffer.sv
+F./VGA_framebuffer.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 ./VGA_framebuffer.sv|
+!s90 -reportprogress|300|./VGA_framebuffer.sv|
+!i113 1
+R6
+n@v@g@a_framebuffer

@@ -1,0 +1,60 @@
+/***
+*	Aidan Lee, Aarin Wen
+*	10/18/2024
+*	EE371
+*	Lab 2
+*
+*	A general all-purpose module that shortens a high input
+*	into one clock cycle. Used for user input button presses
+*	not inputting a billion times when you hold the button
+*
+*	takes in button	for the extended input to shorten
+*	takes in reset		for resets
+*	takes in clk		for clock timing
+*
+*	outputs out			for the single cycle signal output
+*
+***/
+
+module buttonCheck(clk, reset, button, out);
+   input logic clk, reset, button;
+   output logic out;
+
+   enum { idle, pressed, held } currState, nextState; 
+   logic pulse; 
+
+   always_comb begin
+		case (currState)
+			idle:
+				if (button)
+					nextState = pressed;
+				else
+					nextState = idle;
+			pressed:
+				if (button)
+					nextState = held;
+				else 
+					nextState = idle;
+			held:
+				if (button)
+					nextState = held;
+				else
+					nextState = idle;
+		endcase
+	end
+
+   always_ff @(posedge clk) begin
+      if (reset)
+			currState <= idle;
+		else
+			currState <= nextState;
+		  
+		if (currState == pressed)
+			pulse <= 1;
+      else
+         pulse <= 0;
+   end
+
+   assign out = pulse;
+
+endmodule

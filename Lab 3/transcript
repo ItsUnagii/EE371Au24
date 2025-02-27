@@ -1,0 +1,95 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:15:53 on Oct 31,2024
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# ** Error (suppressible): ./DE1_SoC.sv(66): (vlog-2388) 'reset' already declared in this scope (DE1_SoC).
+# End time: 13:15:54 on Oct 31,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 7
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./DE1_SoC.sv""
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:17:20 on Oct 31,2024
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# ** Error (suppressible): (vlog-12003) ./DE1_SoC.sv(71): Variable 'x0' written by continuous and procedural assignments. See ./DE1_SoC.sv(48). 
+# ** Error (suppressible): (vlog-12003) ./DE1_SoC.sv(72): Variable 'x1' written by continuous and procedural assignments. See ./DE1_SoC.sv(50). 
+# ** Error (suppressible): (vlog-12003) ./DE1_SoC.sv(73): Variable 'y0' written by continuous and procedural assignments. See ./DE1_SoC.sv(49). 
+# ** Error (suppressible): (vlog-12003) ./DE1_SoC.sv(74): Variable 'y1' written by continuous and procedural assignments. See ./DE1_SoC.sv(51). 
+# ** Error (suppressible): (vlog-12003) ./DE1_SoC.sv(81): Variable 'y0' written by continuous and procedural assignments. See ./DE1_SoC.sv(49). 
+# ** Error (suppressible): (vlog-12003) ./DE1_SoC.sv(82): Variable 'y1' written by continuous and procedural assignments. See ./DE1_SoC.sv(51). 
+# ** Error (suppressible): (vlog-12003) ./DE1_SoC.sv(86): Variable 'x0' written by continuous and procedural assignments. See ./DE1_SoC.sv(48). 
+# ** Error (suppressible): (vlog-12003) ./DE1_SoC.sv(87): Variable 'x1' written by continuous and procedural assignments. See ./DE1_SoC.sv(50). 
+# ** Error (suppressible): (vlog-12003) ./DE1_SoC.sv(94): Variable 'x0' written by continuous and procedural assignments. See ./DE1_SoC.sv(48). 
+# ** Error (suppressible): (vlog-12003) ./DE1_SoC.sv(95): Variable 'y0' written by continuous and procedural assignments. See ./DE1_SoC.sv(49). 
+# ** Error (suppressible): (vlog-12003) ./DE1_SoC.sv(96): Variable 'x1' written by continuous and procedural assignments. See ./DE1_SoC.sv(50). 
+# ** Error (suppressible): (vlog-12003) ./DE1_SoC.sv(97): Variable 'y1' written by continuous and procedural assignments. See ./DE1_SoC.sv(51). 
+# ** Error (suppressible): (vlog-12003) ./DE1_SoC.sv(101): Variable 'x0' written by continuous and procedural assignments. See ./DE1_SoC.sv(48). 
+# ** Error (suppressible): (vlog-12003) ./DE1_SoC.sv(102): Variable 'y0' written by continuous and procedural assignments. See ./DE1_SoC.sv(49). 
+# ** Error (suppressible): (vlog-12003) ./DE1_SoC.sv(103): Variable 'x1' written by continuous and procedural assignments. See ./DE1_SoC.sv(50). 
+# ** Error (suppressible): (vlog-12003) ./DE1_SoC.sv(104): Variable 'y1' written by continuous and procedural assignments. See ./DE1_SoC.sv(51). 
+# ** Error (suppressible): (vlog-12003) ./DE1_SoC.sv(108): Variable 'x0' written by continuous and procedural assignments. See ./DE1_SoC.sv(48). 
+# ** Error (suppressible): (vlog-12003) ./DE1_SoC.sv(109): Variable 'y0' written by continuous and procedural assignments. See ./DE1_SoC.sv(49). 
+# ** Error (suppressible): (vlog-12003) ./DE1_SoC.sv(110): Variable 'x1' written by continuous and procedural assignments. See ./DE1_SoC.sv(50). 
+# ** Error (suppressible): (vlog-12003) ./DE1_SoC.sv(111): Variable 'y1' written by continuous and procedural assignments. See ./DE1_SoC.sv(51). 
+# ** Error (suppressible): (vlog-12003) ./DE1_SoC.sv(115): Variable 'x0' written by continuous and procedural assignments. See ./DE1_SoC.sv(48). 
+# ** Error (suppressible): (vlog-12003) ./DE1_SoC.sv(116): Variable 'y0' written by continuous and procedural assignments. See ./DE1_SoC.sv(49). 
+# ** Error (suppressible): (vlog-12003) ./DE1_SoC.sv(117): Variable 'x1' written by continuous and procedural assignments. See ./DE1_SoC.sv(50). 
+# ** Error (suppressible): (vlog-12003) ./DE1_SoC.sv(118): Variable 'y1' written by continuous and procedural assignments. See ./DE1_SoC.sv(51). 
+# End time: 13:17:20 on Oct 31,2024, Elapsed time: 0:00:00
+# Errors: 24, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 7
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./DE1_SoC.sv""
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:17:44 on Oct 31,2024
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# 
+# Top level modules:
+# 	DE1_SoC
+# End time: 13:17:44 on Oct 31,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:17:44 on Oct 31,2024
+# vlog -reportprogress 300 ./line_drawer.sv 
+# -- Compiling module line_drawer
+# -- Compiling module line_drawer_tb
+# 
+# Top level modules:
+# 	line_drawer_tb
+# End time: 13:17:44 on Oct 31,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:17:44 on Oct 31,2024
+# vlog -reportprogress 300 ./VGA_framebuffer.sv 
+# -- Compiling module VGA_framebuffer
+# 
+# Top level modules:
+# 	VGA_framebuffer
+# End time: 13:17:45 on Oct 31,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work work.line_drawer_tb -Lf altera_mf_ver 
+# Start time: 13:17:46 on Oct 31,2024
+# Loading sv_std.std
+# Loading work.line_drawer_tb
+# Loading work.line_drawer
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./line_drawer.sv(274)
+#    Time: 2965 ps  Iteration: 1  Instance: /line_drawer_tb
+# Break in Module line_drawer_tb at ./line_drawer.sv line 274
+# End time: 19:24:18 on Nov 01,2024, Elapsed time: 30:06:32
+# Errors: 0, Warnings: 0

@@ -1,0 +1,47 @@
+`timescale 1 ps / 1 ps
+module task2_tb ();
+
+    logic reset, clk, start, found, done;
+    logic [7:0] A;
+    logic [4:0] loc;
+
+    // Clock logic
+    parameter CLOCK_PERIOD = 5; // Increase clock frequency
+    initial begin
+        clk <= 0;
+        forever #(CLOCK_PERIOD/2) clk <= ~clk; // Forever toggle the clock
+    end
+
+    task2 dut (.*);
+
+    initial begin
+        reset <= 1; start <= 0; found <= 0; done <= 0; loc <= 0; #5;
+
+        // Locate value 250, which should be at address 30
+        A <= 250; reset <= 0; @(posedge clk);
+        start <= 1; @(posedge clk);
+        @(posedge done);
+        start <= 0; @(posedge clk);
+        #5;
+
+        // Locate value 77, which should be at address 7
+        A <= 77; reset <= 0; @(posedge clk);
+        start <= 1; @(posedge clk);
+        @(posedge done);
+        start <= 0; @(posedge clk);
+        #5;
+
+        // Locate value 155, which should be at address 15
+        A <= 155; reset <= 0; @(posedge clk);
+        start <= 1; @(posedge clk);
+        @(posedge done);
+        start <= 0; @(posedge clk);
+        #5;
+
+
+
+        #10;
+        $stop;
+    end
+
+endmodule

@@ -1,0 +1,4220 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:33:55 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 12:33:55 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:33:56 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 12:33:56 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:33:56 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 12:33:56 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:33:56 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 12:33:56 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 12:33:57 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2.sv(131): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/ramModule File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlft9z696n".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft9z696n
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(177)
+#    Time: 118 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 177
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:42:35 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 12:42:35 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:42:35 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 12:42:36 on Nov 13,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:42:36 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 12:42:36 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:42:36 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 12:42:36 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:42:39 on Nov 13,2024, Elapsed time: 0:08:42
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 12:42:39 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2.sv(131): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/ramModule File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlft5q0ese".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft5q0ese
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(178)
+#    Time: 118 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 178
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:43:32 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 12:43:32 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:43:32 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 12:43:32 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:43:32 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 12:43:32 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:43:32 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 12:43:33 on Nov 13,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 12:43:38 on Nov 13,2024, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 12:43:38 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2.sv(131): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/ramModule File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlft38rswh".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft38rswh
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(178)
+#    Time: 118 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 178
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:44:29 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 12:44:29 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:44:29 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 12:44:29 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:44:30 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 12:44:30 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:44:30 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 12:44:30 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:44:35 on Nov 13,2024, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 12:44:35 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2.sv(131): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/ramModule File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlft9cmyjq".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft9cmyjq
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(179)
+#    Time: 134 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 179
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:49:10 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 12:49:10 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:49:10 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 12:49:10 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:49:11 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 12:49:11 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:49:11 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 12:49:11 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:49:18 on Nov 13,2024, Elapsed time: 0:04:43
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 12:49:18 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2.sv(131): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/ramModule File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlftie01ey".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftie01ey
+# ** Error: (vish-4014) No objects found matching '/task2_tb/final_notfound'.
+# Executing ONERROR command at macro ./wave.do line 9
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(179)
+#    Time: 134 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 179
+add wave -position 6  sim:/task2_tb/notfound
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/aidan/Downloads/lab4/lab4/wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:50:06 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 12:50:06 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:50:06 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 12:50:06 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:50:06 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 12:50:06 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:50:06 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 12:50:06 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:50:09 on Nov 13,2024, Elapsed time: 0:00:51
+# Errors: 3, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 12:50:09 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2.sv(131): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/ramModule File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlftmhxn8m".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftmhxn8m
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(179)
+#    Time: 134 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 179
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:23:31 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 13:23:31 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:23:31 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 13:23:32 on Nov 13,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:23:32 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 13:23:32 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:23:32 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 13:23:32 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:23:38 on Nov 13,2024, Elapsed time: 0:33:29
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 13:23:39 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2.sv(131): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/ramModule File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlftcnin4m".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftcnin4m
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(213)
+#    Time: 358 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 213
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:24:39 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 13:24:39 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:24:39 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 13:24:39 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:24:39 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 13:24:39 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:24:39 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 13:24:39 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:24:44 on Nov 13,2024, Elapsed time: 0:01:05
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 13:24:44 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2.sv(131): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/ramModule File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlft18frd4".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft18frd4
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(213)
+#    Time: 438 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 213
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:33 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 13:25:33 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:33 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 13:25:33 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:33 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 13:25:33 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:33 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 13:25:34 on Nov 13,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:25:38 on Nov 13,2024, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 13:25:38 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2.sv(131): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/ramModule File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlftizhm7a".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftizhm7a
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(213)
+#    Time: 454 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 213
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:26:04 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 13:26:04 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:26:04 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 13:26:04 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:26:04 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 13:26:04 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:26:04 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 13:26:04 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:26:07 on Nov 13,2024, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 13:26:07 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2.sv(131): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/ramModule File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlft0a8j7j".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft0a8j7j
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(213)
+#    Time: 438 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 213
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:37:25 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 16:37:25 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:37:25 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 16:37:26 on Nov 13,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:37:26 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 16:37:26 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:37:26 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 16:37:26 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:37:29 on Nov 13,2024, Elapsed time: 3:11:22
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 16:37:29 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# ** Error: (vsim-3033) ./task2.sv(34): Instantiation of 'task2_datapath' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut File: ./task2.sv
+#         Searched libraries:
+#             C:/intelFPGA_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             C:/Users/aidan/Downloads/lab4/lab4/work
+# ** Error: (vsim-3033) ./task2.sv(35): Instantiation of 'task2_control' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut File: ./task2.sv
+#         Searched libraries:
+#             C:/intelFPGA_lite/17.0/modelsim_ase/altera/verilog/altera_mf
+#             C:/Users/aidan/Downloads/lab4/lab4/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./runlab.do PAUSED at line 19
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:39:14 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 16:39:14 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:39:14 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# 
+# Top level modules:
+# 	task2_datapath
+# End time: 16:39:14 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:39:14 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# 
+# Top level modules:
+# 	task2_control
+# End time: 16:39:14 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:39:14 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 16:39:14 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:39:14 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 16:39:14 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:39:14 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 16:39:14 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 16:37:29 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(13): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlft0gcm6k".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft0gcm6k
+# ** Error: (vish-4014) No objects found matching '/task2_tb/dut/upper_bound'.
+# Executing ONERROR command at macro ./wave.do line 11
+# ** Error: (vish-4014) No objects found matching '/task2_tb/dut/lower_bound'.
+# Executing ONERROR command at macro ./wave.do line 12
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(114)
+#    Time: 510 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 114
+add wave -position end  sim:/task2_tb/dut/c_unit/upper_bound
+add wave -position end  sim:/task2_tb/dut/c_unit/lower_bound
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/aidan/Downloads/lab4/lab4/wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:41:16 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 16:41:16 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:41:16 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# 
+# Top level modules:
+# 	task2_datapath
+# End time: 16:41:16 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:41:16 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# 
+# Top level modules:
+# 	task2_control
+# End time: 16:41:16 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:41:16 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 16:41:16 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:41:16 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 16:41:16 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:41:16 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 16:41:16 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:41:19 on Nov 13,2024, Elapsed time: 0:03:50
+# Errors: 8, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 16:41:19 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(13): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlft82he0z".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft82he0z
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(114)
+#    Time: 510 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 114
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:18 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 21:23:18 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:18 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 21:23:18 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:18 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 21:23:18 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:18 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 21:23:19 on Nov 13,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:19 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 21:23:19 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:19 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 21:23:19 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:23:23 on Nov 13,2024, Elapsed time: 4:42:04
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 21:23:24 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlftbvywd5".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftbvywd5
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(114)
+#    Time: 510 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 114
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/aidan/Downloads/lab4/lab4/wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:24:04 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 21:24:04 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:24:04 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 21:24:04 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:24:04 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 21:24:05 on Nov 13,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:24:05 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 21:24:05 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:24:05 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 21:24:05 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:24:05 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 21:24:05 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:24:08 on Nov 13,2024, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 21:24:08 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlftbhx6gj".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftbhx6gj
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(114)
+#    Time: 510 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 114
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:25:16 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 21:25:16 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:25:16 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 21:25:16 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:25:16 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 21:25:16 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:25:16 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 21:25:16 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:25:16 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 21:25:16 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:25:16 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 21:25:16 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:25:19 on Nov 13,2024, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 21:25:19 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlftj4y0s5".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftj4y0s5
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(114)
+#    Time: 510 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 114
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:25:48 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 21:25:48 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:25:48 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 21:25:48 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:25:48 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 21:25:48 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:25:48 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 21:25:49 on Nov 13,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:25:49 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 21:25:49 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:25:49 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 21:25:49 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:25:51 on Nov 13,2024, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 21:25:51 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlfts1hkrh".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfts1hkrh
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(114)
+#    Time: 510 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 114
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:26:48 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 21:26:48 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:26:48 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 21:26:48 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:26:48 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 21:26:48 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:26:49 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 21:26:49 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:26:49 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 21:26:49 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:26:49 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 21:26:49 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:26:51 on Nov 13,2024, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 21:26:51 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlftdctwse".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftdctwse
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(114)
+#    Time: 510 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 114
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:27:26 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 21:27:26 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:27:26 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 21:27:26 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:27:26 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 21:27:26 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:27:26 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 21:27:26 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:27:26 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 21:27:26 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:27:26 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 21:27:26 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:27:32 on Nov 13,2024, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 21:27:32 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlftg320rd".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftg320rd
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(114)
+#    Time: 526 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 114
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:28:52 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 21:28:52 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:28:52 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 21:28:52 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:28:52 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 21:28:52 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:28:53 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 21:28:53 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:28:53 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 21:28:53 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:28:53 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 21:28:53 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:28:55 on Nov 13,2024, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 21:28:55 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlftc3r1z9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftc3r1z9
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(114)
+#    Time: 526 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 114
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:29:46 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 21:29:46 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:29:46 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 21:29:46 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:29:46 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 21:29:46 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:29:46 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 21:29:46 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:29:46 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 21:29:46 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:29:46 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 21:29:47 on Nov 13,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 21:29:49 on Nov 13,2024, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 21:29:49 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlfta696dg".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfta696dg
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(114)
+#    Time: 526 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 114
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:31:20 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 21:31:20 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:31:20 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 21:31:20 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:31:20 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# ** Error (suppressible): (vlog-12003) ./task2_control.sv(127): Variable 'to_check' written by continuous and procedural assignments. See ./task2_control.sv(110). 
+# -- Compiling module control_tb
+# End time: 21:31:20 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 11
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./task2_control.sv""
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:33:12 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 21:33:12 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:33:12 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 21:33:12 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:33:12 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 21:33:12 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:33:12 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 21:33:12 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:33:12 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 21:33:12 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:33:12 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 21:33:12 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:33:15 on Nov 13,2024, Elapsed time: 0:03:26
+# Errors: 3, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 21:33:15 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlftx6j9cg".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftx6j9cg
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(114)
+#    Time: 526 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 114
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:35:58 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 21:35:58 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:35:58 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 21:35:58 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:35:58 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 21:35:58 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:35:58 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 21:35:58 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:35:58 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 21:35:59 on Nov 13,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:35:59 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 21:35:59 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:36:02 on Nov 13,2024, Elapsed time: 0:02:47
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 21:36:02 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlft0vmdw4".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft0vmdw4
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(114)
+#    Time: 526 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 114
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:35 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 21:38:35 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:35 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 21:38:35 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:35 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 21:38:35 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:35 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 21:38:35 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:35 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 21:38:35 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:35 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 21:38:35 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:38:39 on Nov 13,2024, Elapsed time: 0:02:37
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 21:38:39 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlftivwkm6".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftivwkm6
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(114)
+#    Time: 526 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 114
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:41:45 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 21:41:45 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:41:45 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 21:41:45 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:41:45 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 21:41:45 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:41:45 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 21:41:45 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:41:45 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 21:41:45 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:41:45 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 21:41:45 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:41:48 on Nov 13,2024, Elapsed time: 0:03:09
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 21:41:48 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlftsgs3s9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftsgs3s9
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(114)
+#    Time: 526 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 114
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:42:31 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 21:42:31 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:42:31 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 21:42:31 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:42:31 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 21:42:32 on Nov 13,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:42:32 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 21:42:32 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:42:32 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 21:42:32 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:42:32 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 21:42:32 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:42:35 on Nov 13,2024, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 21:42:35 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlft82g62c".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft82g62c
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(114)
+#    Time: 526 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 114
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:45:01 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 21:45:01 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:45:01 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 21:45:02 on Nov 13,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:45:02 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 21:45:02 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:45:02 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 21:45:02 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:45:02 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 21:45:02 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:45:02 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 21:45:02 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:45:05 on Nov 13,2024, Elapsed time: 0:02:30
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 21:45:05 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlftew50ac".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftew50ac
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(114)
+#    Time: 526 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 114
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:46:40 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 21:46:40 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:46:40 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 21:46:40 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:46:40 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 21:46:41 on Nov 13,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:46:41 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 21:46:41 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:46:41 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 21:46:41 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:46:41 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 21:46:41 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:46:43 on Nov 13,2024, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 21:46:43 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlfta2chf3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfta2chf3
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(114)
+#    Time: 526 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 114
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:49:18 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 21:49:19 on Nov 13,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:49:19 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 21:49:19 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:49:19 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 21:49:19 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:49:19 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 21:49:19 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:49:19 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 21:49:19 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:49:19 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 21:49:19 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:49:23 on Nov 13,2024, Elapsed time: 0:02:40
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 21:49:23 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlft42ac85".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft42ac85
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(114)
+#    Time: 526 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 114
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:56:10 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 21:56:10 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:56:10 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 21:56:10 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:56:10 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 21:56:10 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:56:10 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 21:56:10 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:56:10 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 21:56:10 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:56:10 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 21:56:10 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:56:17 on Nov 13,2024, Elapsed time: 0:06:54
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 21:56:17 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlft1826x7".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft1826x7
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(121)
+#    Time: 554 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 121
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:57:39 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 21:57:39 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:57:39 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 21:57:39 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:57:39 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 21:57:39 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:57:39 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 21:57:39 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:57:39 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 21:57:39 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:57:39 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 21:57:39 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:57:45 on Nov 13,2024, Elapsed time: 0:01:28
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 21:57:45 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlft5wz06y".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft5wz06y
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(114)
+#    Time: 542 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 114
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:58:21 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 21:58:21 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:58:21 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 21:58:21 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:58:21 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 21:58:21 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:58:21 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 21:58:21 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:58:21 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 21:58:21 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:58:21 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 21:58:21 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:58:27 on Nov 13,2024, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 21:58:27 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlftja9seh".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftja9seh
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(114)
+#    Time: 622 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 114
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:59:37 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 21:59:37 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:59:37 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 21:59:37 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:59:37 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 21:59:37 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:59:37 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 21:59:37 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:59:37 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 21:59:37 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:59:37 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 21:59:37 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:59:41 on Nov 13,2024, Elapsed time: 0:01:14
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 21:59:41 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlfthd3yd3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfthd3yd3
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(114)
+#    Time: 622 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 114
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:16 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 22:00:16 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:17 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 22:00:17 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:17 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 22:00:17 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:17 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 22:00:17 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:17 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 22:00:17 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:17 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 22:00:17 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:00:24 on Nov 13,2024, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 22:00:25 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlftifhkkb".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftifhkkb
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(114)
+#    Time: 510 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 114
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:45 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 22:00:45 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:45 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 22:00:45 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:45 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 22:00:45 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:45 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 22:00:45 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:45 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 22:00:45 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:45 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 22:00:45 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:00:51 on Nov 13,2024, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 22:00:51 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlftsg5x6d".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftsg5x6d
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(114)
+#    Time: 526 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 114
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:02:26 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 22:02:26 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:02:26 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 22:02:26 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:02:26 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 22:02:26 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:02:26 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 22:02:26 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:02:26 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 22:02:26 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:02:26 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 22:02:26 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:02:32 on Nov 13,2024, Elapsed time: 0:01:41
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 22:02:32 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlftes4t1h".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftes4t1h
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(114)
+#    Time: 542 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 114
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:08:49 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 22:08:49 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:08:49 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 22:08:49 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:08:49 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 22:08:49 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:08:49 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 22:08:49 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:08:49 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 22:08:49 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:08:49 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 22:08:49 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:08:55 on Nov 13,2024, Elapsed time: 0:06:23
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 22:08:55 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlft4a166m".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft4a166m
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(114)
+#    Time: 542 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 114
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:16:38 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 22:16:38 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:16:38 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 22:16:38 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:16:38 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 22:16:38 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:16:38 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 22:16:38 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:16:38 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 22:16:38 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:16:38 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 22:16:38 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:16:44 on Nov 13,2024, Elapsed time: 0:07:49
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 22:16:44 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlftv78csc".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftv78csc
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(114)
+#    Time: 574 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 114
+do runlab_de1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:39:17 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 22:39:17 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:39:17 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 22:39:17 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:39:17 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 22:39:17 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:39:17 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 22:39:17 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:39:17 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 22:39:18 on Nov 13,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:39:18 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 22:39:18 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:39:22 on Nov 13,2024, Elapsed time: 0:22:38
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work De1SoC_tb -Lf altera_mf_ver 
+# Start time: 22:39:22 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.De1SoC_tb
+# Loading work.De1SoC
+# Loading work.task2
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'De1SoC_tb' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /De1SoC_tb/dut/taskDisp2 File: ./task2.sv
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading work.seg7
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./runlab_de1.do PAUSED at line 21
+do runlab_de1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:44 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 22:42:44 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:44 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 22:42:44 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:44 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 22:42:44 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:44 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 22:42:44 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:44 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 22:42:44 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:44 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 22:42:44 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work De1SoC_tb -Lf altera_mf_ver 
+# Start time: 22:39:22 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.De1SoC_tb
+# Loading work.De1SoC
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading work.seg7
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /De1SoC_tb/dut/taskDisp2/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-3015) ./De1SoC.sv(54): [PCDPC] - Port size (4) does not match connection size (1) for port 'hex'. The port definition is at: ./seg7.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /De1SoC_tb/dut/disp1 File: ./seg7.sv
+# ** Warning: (vsim-3015) ./De1SoC.sv(55): [PCDPC] - Port size (4) does not match connection size (7) for port 'hex'. The port definition is at: ./seg7.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /De1SoC_tb/dut/disp0 File: ./seg7.sv
+# ** Error: (vsim-3837) ./De1SoC.sv(37): Variable '/De1SoC_tb/dut/SW[9]' written by more than one continuous assignment. See ./De1SoC.sv(85).
+#    Time: 0 ps  Iteration: 0  Instance: /De1SoC_tb/dut File: ./De1SoC.sv
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./runlab_de1.do PAUSED at line 21
+do runlab_de1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:43:46 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 22:43:46 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:43:46 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 22:43:46 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:43:46 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 22:43:46 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:43:46 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 22:43:46 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:43:46 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 22:43:46 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:43:46 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 22:43:46 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work De1SoC_tb -Lf altera_mf_ver 
+# Start time: 22:39:22 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.De1SoC_tb
+# Loading work.De1SoC
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading work.seg7
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /De1SoC_tb/dut/taskDisp2/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-3015) ./De1SoC.sv(54): [PCDPC] - Port size (4) does not match connection size (1) for port 'hex'. The port definition is at: ./seg7.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /De1SoC_tb/dut/disp1 File: ./seg7.sv
+# ** Warning: (vsim-3015) ./De1SoC.sv(55): [PCDPC] - Port size (4) does not match connection size (7) for port 'hex'. The port definition is at: ./seg7.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /De1SoC_tb/dut/disp0 File: ./seg7.sv
+# ** Error: Cannot open macro file: de1wave.do
+# Error in macro ./runlab_de1.do line 27
+# Cannot open macro file: de1wave.do
+#     while executing
+# "do de1wave.do"
+do runlab_de1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:44:28 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 22:44:28 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:44:29 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 22:44:29 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:44:29 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 22:44:29 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:44:29 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 22:44:29 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:44:29 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 22:44:29 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:44:29 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 22:44:29 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:44:32 on Nov 13,2024, Elapsed time: 0:05:10
+# Errors: 5, Warnings: 6
+# vsim -voptargs=""+acc"" -t 1ps -lib work De1SoC_tb -Lf altera_mf_ver 
+# Start time: 22:44:32 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.De1SoC_tb
+# Loading work.De1SoC
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading work.seg7
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Error: (vsim-3694) The implicit port connection (.*) did not find a matching port, net, variable or interface instance in De1SoC_tb for port 'HEX2'.
+#    Time: 0 ps  Iteration: 0  Instance: /De1SoC_tb/dut File: ./De1SoC.sv
+# ** Error: (vsim-3694) The implicit port connection (.*) did not find a matching port, net, variable or interface instance in De1SoC_tb for port 'HEX3'.
+#    Time: 0 ps  Iteration: 0  Instance: /De1SoC_tb/dut File: ./De1SoC.sv
+# ** Error: (vsim-3694) The implicit port connection (.*) did not find a matching port, net, variable or interface instance in De1SoC_tb for port 'HEX4'.
+#    Time: 0 ps  Iteration: 0  Instance: /De1SoC_tb/dut File: ./De1SoC.sv
+# ** Error: (vsim-3694) The implicit port connection (.*) did not find a matching port, net, variable or interface instance in De1SoC_tb for port 'HEX5'.
+#    Time: 0 ps  Iteration: 0  Instance: /De1SoC_tb/dut File: ./De1SoC.sv
+# ** Warning: (vsim-3017) ./De1SoC.sv(85): [TFMPC] - Too few port connections. Expected 10, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /De1SoC_tb/dut File: ./De1SoC.sv
+# ** Warning: (vsim-3722) ./De1SoC.sv(85): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) ./De1SoC.sv(85): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) ./De1SoC.sv(85): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) ./De1SoC.sv(85): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /De1SoC_tb/dut/taskDisp2/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-3015) ./De1SoC.sv(54): [PCDPC] - Port size (4) does not match connection size (1) for port 'hex'. The port definition is at: ./seg7.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /De1SoC_tb/dut/disp1 File: ./seg7.sv
+# ** Warning: (vsim-3015) ./De1SoC.sv(55): [PCDPC] - Port size (4) does not match connection size (7) for port 'hex'. The port definition is at: ./seg7.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /De1SoC_tb/dut/disp0 File: ./seg7.sv
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./runlab_de1.do PAUSED at line 21
+do runlab_de1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:45:37 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 22:45:37 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:45:37 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 22:45:38 on Nov 13,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:45:38 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 22:45:38 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:45:38 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 22:45:38 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:45:38 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 22:45:38 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:45:38 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 22:45:38 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work De1SoC_tb -Lf altera_mf_ver 
+# Start time: 22:44:32 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.De1SoC_tb
+# Loading work.De1SoC
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading work.seg7
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Error: (vsim-3694) The implicit port connection (.*) did not find a matching port, net, variable or interface instance in De1SoC_tb for port 'HEX2'.
+#    Time: 0 ps  Iteration: 0  Instance: /De1SoC_tb/dut File: ./De1SoC.sv
+# ** Error: (vsim-3694) The implicit port connection (.*) did not find a matching port, net, variable or interface instance in De1SoC_tb for port 'HEX3'.
+#    Time: 0 ps  Iteration: 0  Instance: /De1SoC_tb/dut File: ./De1SoC.sv
+# ** Error: (vsim-3694) The implicit port connection (.*) did not find a matching port, net, variable or interface instance in De1SoC_tb for port 'HEX4'.
+#    Time: 0 ps  Iteration: 0  Instance: /De1SoC_tb/dut File: ./De1SoC.sv
+# ** Error: (vsim-3694) The implicit port connection (.*) did not find a matching port, net, variable or interface instance in De1SoC_tb for port 'HEX5'.
+#    Time: 0 ps  Iteration: 0  Instance: /De1SoC_tb/dut File: ./De1SoC.sv
+# ** Warning: (vsim-3017) ./De1SoC.sv(85): [TFMPC] - Too few port connections. Expected 10, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /De1SoC_tb/dut File: ./De1SoC.sv
+# ** Warning: (vsim-3722) ./De1SoC.sv(85): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) ./De1SoC.sv(85): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) ./De1SoC.sv(85): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) ./De1SoC.sv(85): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /De1SoC_tb/dut/taskDisp2/d_unit/ram File: ./ram32x8.v
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./runlab_de1.do PAUSED at line 21
+do runlab_de1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:46:00 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 22:46:00 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:46:00 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 22:46:00 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:46:00 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 22:46:00 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:46:00 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 22:46:00 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:46:00 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 22:46:00 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:46:00 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 22:46:00 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work De1SoC_tb -Lf altera_mf_ver 
+# Start time: 22:44:32 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.De1SoC_tb
+# Loading work.De1SoC
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading work.seg7
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /De1SoC_tb/dut/taskDisp2/d_unit/ram File: ./ram32x8.v
+# ** Error: Cannot open macro file: de1wave.do
+# Error in macro ./runlab_de1.do line 27
+# Cannot open macro file: de1wave.do
+#     while executing
+# "do de1wave.do"
+add wave -position end  sim:/De1SoC_tb/clk
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlftzx7zgf".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftzx7zgf
+add wave -position end  sim:/De1SoC_tb/KEY[0]
+add wave -position end  sim:/De1SoC_tb/SW[9]
+add wave -position end  sim:/De1SoC_tb/SW[7]
+add wave -position end  sim:/De1SoC_tb/SW[6]
+add wave -position end  sim:/De1SoC_tb/SW[5]
+add wave -position end  sim:/De1SoC_tb/SW[4]
+add wave -position end  sim:/De1SoC_tb/SW[3]
+add wave -position end  sim:/De1SoC_tb/SW[2]
+add wave -position end  sim:/De1SoC_tb/SW[1]
+add wave -position end  sim:/De1SoC_tb/SW[0]
+add wave -position end  sim:/De1SoC_tb/HEX0
+add wave -position end  sim:/De1SoC_tb/HEX1
+add wave -position end  sim:/De1SoC_tb/HEX2
+add wave -position end  sim:/De1SoC_tb/HEX3
+add wave -position end  sim:/De1SoC_tb/HEX4
+add wave -position end  sim:/De1SoC_tb/HEX5
+add wave -position end  sim:/De1SoC_tb/LEDR[9]
+add wave -position end  sim:/De1SoC_tb/LEDR[8]
+add wave -position end  sim:/De1SoC_tb/LEDR[1]
+add wave -position end  sim:/De1SoC_tb/LEDR[0]
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/aidan/Downloads/lab4/lab4/de1wave.do
+do runlab_de1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:47:24 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 22:47:24 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:47:24 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 22:47:24 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:47:24 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 22:47:25 on Nov 13,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:47:25 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 22:47:25 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:47:25 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 22:47:25 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:47:25 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 22:47:25 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:47:28 on Nov 13,2024, Elapsed time: 0:02:56
+# Errors: 11, Warnings: 17
+# vsim -voptargs=""+acc"" -t 1ps -lib work De1SoC_tb -Lf altera_mf_ver 
+# Start time: 22:47:28 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.De1SoC_tb
+# Loading work.De1SoC
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading work.seg7
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /De1SoC_tb/dut/taskDisp2/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlfthbdc1d".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfthbdc1d
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./De1SoC.sv(146)
+#    Time: 574 ns  Iteration: 1  Instance: /De1SoC_tb
+# Break in Module De1SoC_tb at ./De1SoC.sv line 146
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/aidan/Downloads/lab4/lab4/de1wave.do
+do runlab_ctrl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:52:35 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 22:52:35 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:52:35 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 22:52:35 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:52:35 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 22:52:35 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:52:35 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 22:52:35 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:52:35 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 22:52:35 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:52:35 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 22:52:35 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:52:40 on Nov 13,2024, Elapsed time: 0:05:12
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work control_tb -Lf altera_mf_ver 
+# Start time: 22:52:40 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.control_tb
+# Loading work.task2_control
+# ** Error: Cannot open macro file: controlwave.do
+# Error in macro ./runlab_ctrl.do line 27
+# Cannot open macro file: controlwave.do
+#     while executing
+# "do controlwave.do"
+add wave -position end  sim:/control_tb/clk
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlft9kexey".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft9kexey
+add wave -position end  sim:/control_tb/reset
+add wave -position end  sim:/control_tb/start
+add wave -position end  sim:/control_tb/A
+add wave -position end  sim:/control_tb/data_out
+add wave -position end  sim:/control_tb/found
+add wave -position end  sim:/control_tb/notfound
+add wave -position end  sim:/control_tb/done
+add wave -position end  sim:/control_tb/to_check
+add wave -position end  sim:/control_tb/loc
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/aidan/Downloads/lab4/lab4/controlwave.do
+do runlab_ctrl.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:53:45 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 22:53:45 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:53:45 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 22:53:45 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:53:45 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 22:53:45 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:53:45 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 22:53:45 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:53:45 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 22:53:45 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:53:45 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 22:53:45 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:53:50 on Nov 13,2024, Elapsed time: 0:01:10
+# Errors: 3, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work control_tb -Lf altera_mf_ver 
+# Start time: 22:53:50 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.control_tb
+# Loading work.task2_control
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlft7v3r67".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft7v3r67
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2_control.sv(178)
+#    Time: 78 ns  Iteration: 1  Instance: /control_tb
+# Break in Module control_tb at ./task2_control.sv line 178
+do runlab_datapath.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:01:15 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 23:01:15 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:01:15 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 23:01:15 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:01:15 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 23:01:16 on Nov 13,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:01:16 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 23:01:16 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:01:16 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 23:01:16 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:01:16 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 23:01:16 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:01:21 on Nov 13,2024, Elapsed time: 0:07:31
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work datapath_tb -Lf altera_mf_ver 
+# Start time: 23:01:21 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.datapath_tb
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/dut/ram File: ./ram32x8.v
+# ** Error: Cannot open macro file: datawave.do
+# Error in macro ./runlab_datapath.do line 27
+# Cannot open macro file: datawave.do
+#     while executing
+# "do datawave.do"
+add wave -position end  sim:/datapath_tb/clk
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlftnzama2".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftnzama2
+add wave -position end  sim:/datapath_tb/to_check
+add wave -position end  sim:/datapath_tb/data_out
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/aidan/Downloads/lab4/lab4/datawave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:02:00 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 23:02:00 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:02:00 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 23:02:01 on Nov 13,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:02:01 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 23:02:01 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:02:01 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 23:02:01 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:02:01 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 23:02:01 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:02:01 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 23:02:01 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:02:06 on Nov 13,2024, Elapsed time: 0:00:45
+# Errors: 3, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work task2_tb -Lf altera_mf_ver 
+# Start time: 23:02:06 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.task2_tb
+# Loading work.task2
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading work.task2_control
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /task2_tb/dut/d_unit/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlftq0qayi".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftq0qayi
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2.sv(114)
+#    Time: 574 ns  Iteration: 1  Instance: /task2_tb
+# Break in Module task2_tb at ./task2.sv line 114
+do runlab_datapath.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:02:54 on Nov 13,2024
+# vlog -reportprogress 300 ./task2.sv 
+# -- Compiling module task2
+# -- Compiling module task2_tb
+# 
+# Top level modules:
+# 	task2_tb
+# End time: 23:02:54 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:02:54 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_datapath.sv 
+# -- Compiling module task2_datapath
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 23:02:54 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:02:54 on Nov 13,2024
+# vlog -reportprogress 300 ./task2_control.sv 
+# -- Compiling module task2_control
+# -- Compiling module control_tb
+# 
+# Top level modules:
+# 	control_tb
+# End time: 23:02:54 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:02:54 on Nov 13,2024
+# vlog -reportprogress 300 ./De1SoC.sv 
+# -- Compiling module De1SoC
+# -- Compiling module De1SoC_tb
+# 
+# Top level modules:
+# 	De1SoC_tb
+# End time: 23:02:54 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:02:54 on Nov 13,2024
+# vlog -reportprogress 300 ./ram32x8.v 
+# -- Compiling module ram32x8
+# 
+# Top level modules:
+# 	ram32x8
+# End time: 23:02:54 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:02:54 on Nov 13,2024
+# vlog -reportprogress 300 ./seg7.sv 
+# -- Compiling module seg7
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# End time: 23:02:54 on Nov 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:03:01 on Nov 13,2024, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work datapath_tb -Lf altera_mf_ver 
+# Start time: 23:03:01 on Nov 13,2024
+# Loading sv_std.std
+# Loading work.datapath_tb
+# Loading work.task2_datapath
+# Loading work.ram32x8
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ./task2_datapath.sv(27): [PCDPC] - Port size (8) does not match connection size (1) for port 'data'. The port definition is at: ./ram32x8.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/dut/ram File: ./ram32x8.v
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aidan  Hostname: AIDAN-LAPTOP4I  ProcessID: 26408
+#           Attempting to use alternate WLF file "./wlftqw85iy".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftqw85iy
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./task2_datapath.sv(53)
+#    Time: 126 ns  Iteration: 1  Instance: /datapath_tb
+# Break in Module datapath_tb at ./task2_datapath.sv line 53
+# End time: 23:18:52 on Nov 13,2024, Elapsed time: 0:15:51
+# Errors: 0, Warnings: 3
